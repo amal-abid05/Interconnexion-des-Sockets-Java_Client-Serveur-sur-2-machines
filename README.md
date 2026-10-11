@@ -9,6 +9,7 @@ Voici les **3 étapes indispensables** pour réussir la connexion à distance.
 ## 1. Adapter le code du Client
 
 Sur l'autre machine (le PC client), votre code Java doit pointer directement sur l'adresse IP fixe que vous avez configurée dans le serveur (`192.168.1.10`).
+192.168.1.10 : c'est un exemple, il faut mettre l'adresse de votre serveur (ifconfig ou ipconfig dans le terminal).
 
 ```java
 // Dans le projet Java sur la machine CLIENT :
