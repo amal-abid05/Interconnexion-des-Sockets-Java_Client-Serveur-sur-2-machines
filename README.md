@@ -39,7 +39,7 @@ Par défaut, Windows ou macOS bloque les connexions entrantes inconnues sur les 
 2. Cliquez sur **Paramètres avancés** (dans le volet de gauche).
 3. Sélectionnez **Règles de trafic entrant**, puis cliquez sur **Nouvelle règle** (dans le volet de droite).
 4. Choisissez **Port** > Suivant > **TCP** > Saisissez le port spécifique : `1234`.
-5. Sélectionnez **Autoriser la connexion**, validez les profils et donnez un nom à la règle (ex: *Serveur Calculatrice Java*).
+5. Sélectionnez **Autoriser la connexion**, validez les profils et donnez un nom à la règle (ex: *Serveur Socket Java*).
 
 ### Sur Linux / macOS (Serveur)
 Si vous utilisez `ufw` sur Ubuntu/Debian par exemple, ouvrez un terminal et exécutez :
